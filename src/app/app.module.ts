@@ -7,6 +7,7 @@ import { PolerasComponent } from './pages/poleras/poleras.component';
 import { PantalonesComponent } from './pages/pantalones/pantalones.component';
 import { ZapatillasComponent } from './pages/zapatillas/zapatillas.component';
 import { RelojComponent } from './pages/reloj/reloj.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { RelojComponent } from './pages/reloj/reloj.component';
     PolerasComponent,
     PantalonesComponent,
     ZapatillasComponent,
-    RelojComponent
+    RelojComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
